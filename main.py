@@ -23,6 +23,8 @@ R_H_RIGHT = [263]
 R_H_UP = [257]
 R_H_DOWN = [254]
 
+
+#use the serial code if you have an Arduino supported device connected to the PC
 ser = serial.Serial("com6", 9600)
 def esp32(Vertical,Horiztonal):
     if Vertical == "Top":
